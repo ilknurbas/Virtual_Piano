@@ -1,0 +1,63 @@
+html {
+    background-color: darkgreen;
+}
+
+.white-keys kbd {
+    background-color: white;
+    font-size: 20px;
+    line-height: 500px;
+    text-align: center;
+
+    display: inline-block;
+    width: 70px;
+    height: 300px;
+    border:3px solid black;
+}
+
+.black-keys kbd {
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    line-height: 200px;
+    text-align: center;
+
+    display: inline-block;
+    width: 42px;
+    height: 168px;
+    position: relative;
+}
+
+.container {
+    width:max-content;
+    margin: auto;
+    padding-top:100px;
+}
+
+.white-keys  {
+    width:max-content;
+    margin: 20% auto;
+}
+
+.black-keys {
+    width:max-content;
+    position: relative;
+    top:-417px;
+}
+
+#W {
+    left: 60px;
+}
+
+#E {
+    left: 90px;
+}
+#T {
+    left: 120px;
+}
+#Y {
+    left: 240px;
+}
+
+#U {
+    left: 270px;
+}
